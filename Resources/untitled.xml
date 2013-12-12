@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="4" height="4" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="TileMapExample" tilewidth="32" tileheight="32">
+  <image source="untitled.png" width="256" height="224"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="4" height="4">
+  <data encoding="base64" compression="zlib">
+   eJyTZWBgkMWCpdDYUljEQDQAPHgBwg==
+  </data>
+ </layer>
+ <objectgroup name="Collisions" width="4" height="4">
+  <object x="65" y="33" width="30" height="93"/>
+  <object x="36" y="66" width="90" height="31"/>
+ </objectgroup>
+</map>

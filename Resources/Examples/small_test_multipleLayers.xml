@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="10" height="4" tilewidth="16" tileheight="16">
+ <tileset firstgid="1" name="tiles" tilewidth="16" tileheight="16">
+  <image source="tiles.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Background" width="10" height="4">
+  <data encoding="base64">
+   ywAAAMwAAADNAAAAzgAAAMsAAADMAAAAzQAAAM4AAADPAAAA0AAAANsAAADcAAAA3QAAAN4AAADbAAAA3AAAAN0AAADeAAAA3wAAAOAAAADrAAAA7AAAAO0AAADuAAAA6wAAAOwAAADtAAAA7gAAAO8AAADwAAAA+wAAAPwAAAD9AAAA/gAAAPsAAAD8AAAA/QAAAP4AAAD/AAAAAAEAAA==
+  </data>
+ </layer>
+ <layer name="Midground" width="10" height="4">
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEEAAABCAAAAQwAAAEIAAABDAAAAQgAAAEMAAABEAAAAAAAAAAAAAABRAAAAUgAAAFIAAABSAAAAUgAAAFIAAABSAAAAVAAAAAAAAAAAAAAAYQAAAGIAAABjAAAAYgAAAGMAAABiAAAAYwAAAGQAAAAAAAAAAAAAAA==
+  </data>
+ </layer>
+ <layer name="Foreground" width="10" height="4">
+  <data encoding="base64">
+   RgAAAEUAAABVAAAAZQAAAHUAAABmAAAAdgAAAFYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABHAAAAAAAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARwAAAAAAAABHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEcAAAAAAAAARwAAAA==
+  </data>
+ </layer>
+ <objectgroup name="Colliders" width="10" height="4">
+  <object x="112" y="16" width="16" height="48"/>
+  <object x="144" y="32" width="16" height="32"/>
+  <object x="7" y="9">
+   <polyline points="0,0 9,-6 104,-6 114,-1"/>
+  </object>
+  <object x="16" y="48" width="16" height="16">
+   <ellipse/>
+  </object>
+  <object x="48" y="48" width="16" height="16">
+   <ellipse/>
+  </object>
+  <object x="80" y="48" width="16" height="16">
+   <ellipse/>
+  </object>
+  <object x="8" y="22">
+   <polygon points="0,0 33,-2 95,-1 101,15 4,17"/>
+  </object>
+ </objectgroup>
+</map>
